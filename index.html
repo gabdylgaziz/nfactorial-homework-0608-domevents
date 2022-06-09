@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <title>Music Player</title>
+</head>
+  
+<body>
+    <div id = "videoid" class = "videobackground">
+        <div id="check">
+            <video id="video" class = "gg" onclick="pausescreen()" width="100%" autoplay >
+                <source id="mp4_source" src="assets/industrybaby.mp4">
+            </video>
+        </div>
+        
+
+        
+        <div class = "ppButton" onclick="getPause()" type = "button" id = "ppButton">
+            <i class="fa fa-pause-circle fa-5x"></i>
+        </div>
+
+        <div class = "volumeUp" onclick="upvol()" type = "button" id = "ppButton">
+            <i class="fa-solid fa-volume-high fa-5x"></i>
+        </div>
+
+        <div class = "volumeDown" onclick="downvol()" type = "button" id = "ppButton">
+            <i class="fa-solid fa-volume-low fa-5x"></i>
+        </div>
+
+        <div class = "nT" onclick="nextTrack()" type = "button" id = "ppButton">
+            <i class="fa-solid fa-forward-fast fa-5x"></i>
+        </div>
+
+        <div class = "pT" onclick="prevTrack()" type = "button" id = "ppButton">
+            <i class="fa-solid fa-forward-fast fa-5x"></i>
+        </div>
+
+        <!--<div class="details">
+            <div id="track-name">Track Name</div>
+            <div id="track-artist"> Track Artist</div>
+        </div>-->
+
+        <div class="progress">
+            <span class="start"></span>
+            <div class="progress-bar">
+                <div class="now"></div>
+            </div>
+            <span class="end"></span>
+          </div>
+
+        <div class = "list">
+            <div id="trackname">Track Name</div>
+        </div>
+
+    </div>
+    
+    
+    <script src = "./scripts.js"> </script>
+  
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    width: 100hv;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    opacity: 0.66;
+    font-family: Verdana, sans-serif;
+}
+
+.pos{
+    position: fixed;
+}
+
+.videobackground{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ppButton{
+    position: absolute;
+    bottom: 50px;
+}
+
+.volumeUp{
+    position: absolute;
+    bottom: 50px;
+    right: 55%;
+}
+
+.volumeDown{
+    position: absolute;
+    bottom: 50px;
+    left: 55%;
+}
+
+.nT{
+    position: absolute;
+    bottom: 50px;
+    left: 61.8%;
+}
+
+.pT{
+    position: absolute;
+    transform: scale(-1, 1); 
+    bottom: 50px;
+    right: 63%;
+}
+
+#video{
+    opacity: 0.66;
+}
+
+.progress {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 700px;
+    margin: 100px auto;
+}
+
+.progress-bar {
+    position: relative;
+    width: 70%;
+    height: 5px;
+    background-color: rgb(238, 238, 238);
+    vertical-align: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.now {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 5px;
+    width: 70%;
+    background: rgb(206, 129, 15);
+}
+
+.now::after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    width: 3px;
+    height: 7px;
+    background-color: lightblue;
+}
+
+.details{
+    font: arial;
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 53, 53);
+    position: fixed;
+    opacity: 0.66;
+    width: 350px;
+    height: 25px;
+    top: 20px;
+    left: 20px;
+}
