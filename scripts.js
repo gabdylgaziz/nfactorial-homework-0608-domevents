@@ -91,27 +91,27 @@ let vid = document.getElementById("video");
             {
               name: "Industry Baby ",
               artist: "-Lil Nas X",
-              path: "assets/industrybaby.mp4"
+              path: "./industrybaby.mp4"
             },
             {
               name: "Blinding Lights ",
               artist: "-TheWeeknd",
-              path: "assets/blinding.mp4"
+              path: "./blinding.mp4"
             },
             {
               name: "Save Your Tears ",
               artist: "-TheWeeknd",
-              path: "assets/saveyourtears.mp4"
+              path: "./saveyourtears.mp4"
             },
             {
               name: "Holiday",
               artist: "-Lil Nas X",
-              path: "assets/holiday.mp4"
+              path: "./holiday.mp4"
             },
             {
               name: "さかいゆう Whale Song",
               artist: "unknown",
-              path: "assets/whalesong.mp4"
+              path: "./whalesong.mp4"
             }
           ];
 
