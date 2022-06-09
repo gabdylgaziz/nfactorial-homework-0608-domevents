@@ -108,6 +108,11 @@ let vid = document.getElementById("video");
               artist: "-Lil Nas X",
               path: "assets/holiday.mp4"
             },
+            {
+              name: "さかいゆう Whale Song",
+              artist: "unknown",
+              path: "assets/whalesong.mp4"
+            }
           ];
 
 
